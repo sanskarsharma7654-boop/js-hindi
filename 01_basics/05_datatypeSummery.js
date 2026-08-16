@@ -12,7 +12,7 @@ let userEmail;
 const id = Symbol('123')
 const anotherId = Symbol('123')
 
-console.log(id === anotherId);
+// console.log(id === anotherId);
 
 const BigNumber = 12572575735713757531n
 
@@ -22,7 +22,17 @@ const BigNumber = 12572575735713757531n
 // Array, Object ,Functions
 
 const Heros = ['saktimaan' , 'naagraj' , 'sanskar']
+
 let myObj={
     name: 'sanskar',
     age: 22,
 }
+
+const myFunction = function() {
+    console.log("Hello world")
+    
+}
+
+console.log(typeof myObj);
+
+
