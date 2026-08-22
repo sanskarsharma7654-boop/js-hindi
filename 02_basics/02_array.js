@@ -22,7 +22,7 @@ console.log(Array.from({name:"Sanskar"}));  //intersting
 
 let score1 =100
 let score2 =1001
-let score3 =1003
+const score3 ="sanskar1"
 
 console.log(Array.of(score1,score2,score3));
 
