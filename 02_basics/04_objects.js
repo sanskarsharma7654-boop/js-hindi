@@ -88,7 +88,7 @@ console.log(paisa);
 
 [
     {},                                // API IN ARRAY FORM
-    {},
+    {},                                //API - apna kaam kisi or ke sar par dal dena(like a menu card)
     {}
 ]
 

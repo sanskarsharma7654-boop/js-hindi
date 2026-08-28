@@ -1,5 +1,5 @@
-const accountID = 14453
-let accountEmail = " sanskarsharma7654@gmail.com"
+const accountID = 14453     //reassingning is not possible 
+let accountEmail = " sanskarsharma7654@gmail.com"   //reassingn is possible
 var accountPassword = "12334"
 accountCity = "jaipur"
 let accountstate;
