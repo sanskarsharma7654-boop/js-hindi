@@ -33,8 +33,8 @@ function addTwoNumber (number1,number2){        //parameters       //no data typ
 // addTwoNumber(10,"a")          //Arguments
 // addTwoNumber(10,null)         //Arguments
 
-const result=addTwoNumber(10,5)         //Arguments
-console.log("Result:",result);          //undefined  - value is not returned
+const hero=addTwoNumber(10,5)         //Arguments
+console.log("Result:",hero);          //undefined  - value is not returned
 
 
 
