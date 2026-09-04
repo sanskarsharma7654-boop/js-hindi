@@ -22,7 +22,7 @@ console.log("WE");
 
 function addTwoNumber (number1,number2){        //parameters       //no data type is needed in js
   let result = number1 + number2
-  console.log(result);
+  // console.log(result);
   
   return result
 
@@ -34,7 +34,28 @@ function addTwoNumber (number1,number2){        //parameters       //no data typ
 // addTwoNumber(10,null)         //Arguments
 
 const hero=addTwoNumber(10,5)         //Arguments
-console.log("Result:",hero);          //undefined  - value is not returned
+// console.log("Result:",hero);        //undefined  - value is not returned
 
+
+// function loginUserMessage (username){
+//   if(username === undefined){
+//     console.log("please enter a username");
+//     return 
+//     }
+//   return `${username} just logged in `
+// }
+
+// console.log(loginUserMessage());
+//  console.log(loginUserMessage("Sanskar"))
+
+function loginUserMessage (username="sam"){
+  if(!username){
+    console.log("please enter a username");
+    return 
+    }
+  return `${username} just logged in `
+}
+
+console.log(loginUserMessage("Sanskar"));
 
 
